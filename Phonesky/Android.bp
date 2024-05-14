@@ -13,7 +13,7 @@ prebuilt_etc {
 }
 
 android_app_import {
-    name: "Phonesky",
+    name: "PhoneskyG",
     apk: "Phonesky.apk",
     presigned: true,
     privileged: true,
