@@ -1,5 +1,5 @@
 android_app_import {
-    name: "GoogleCalendarSyncAdapter",
+    name: "GoogleCalendarSyncAdapterG",
     apk: "GoogleCalendarSyncAdapter.apk",
     presigned: true,
     preprocessed: true,

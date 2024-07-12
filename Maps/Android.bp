@@ -3,11 +3,11 @@ dex_import {
 	owner: "gms",
 	jars: ["com.google.android.maps.jar"],
 	product_specific: true,
-	required: ["com.google.android.maps.xml"],
+	required: ["com.google.android.maps.xml.g"],
 }
 
 prebuilt_etc {
-    name: "com.google.android.maps.xml",
+    name: "com.google.android.maps.xml.g",
     src: "com.google.android.maps.xml",
     product_specific: true,
     relative_install_path: "permissions",

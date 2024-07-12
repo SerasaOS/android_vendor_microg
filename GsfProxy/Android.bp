@@ -1,5 +1,5 @@
 android_app_import {
-    name: "GsfProxy",
+    name: "GsfProxyG",
     apk: "GsfProxy.apk",
     presigned: true,
     product_specific: true,

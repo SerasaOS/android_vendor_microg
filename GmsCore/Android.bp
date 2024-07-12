@@ -20,7 +20,7 @@ prebuilt_etc {
 }
 
 android_app_import {
-    name: "GmsCore",
+    name: "GmsCoreG",
     apk: "GmsCore.apk",
     presigned: true,
     privileged: true,
