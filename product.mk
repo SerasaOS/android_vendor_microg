@@ -1,8 +1,7 @@
-# TARGET_BUILD_PACKAGE options:
-# 1 - vanilla (default)
-# 2 - microg
-# 3 - gapps
-ifeq ($(TARGET_BUILD_PACKAGE),2)
+# CUSTOM_BUILD_PACKAGE options:
+# true - gapps (default)
+# false - microg
+ifeq ($(WITH_GAPPS),false)
   PRODUCT_PACKAGES += \
     AuroraDroid \
     GmsCoreG \
